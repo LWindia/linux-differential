@@ -49,7 +49,7 @@ const Navbar = () => {
             <button className="px-6 py-3 text-gray-300 hover:text-white transition-colors duration-300 font-medium">
               Course Details
             </button>
-            <button className="px-6 py-3 bg-red-600 hover:bg-red-700 text-white font-semibold rounded-2xl transition-colors duration-300">
+            <button className="px-6 py-3 bg-green-600 hover:bg-green-700 text-white font-semibold rounded-2xl transition-colors duration-300">
               Enroll Now
             </button>
           </div>
@@ -87,7 +87,7 @@ const Navbar = () => {
                 <button className="w-full px-6 py-3 text-gray-300 hover:text-white transition-colors duration-300 font-medium border border-gray-700 rounded-2xl">
                   Course Details
                 </button>
-                <button className="w-full px-6 py-3 bg-red-600 hover:bg-red-700 text-white font-semibold rounded-2xl transition-colors duration-300">
+                <button className="w-full px-6 py-3 bg-green-600 hover:bg-green-700 text-white font-semibold rounded-2xl transition-colors duration-300">
                   Enroll Now
                 </button>
               </div>

@@ -67,7 +67,7 @@ const CTASection = () => {
               {/* Pricing Card */}
               <div className="bg-gray-900/80 backdrop-blur-sm rounded-xl lg:rounded-2xl p-6 lg:p-8 border border-gray-700/50">
                 <div className="text-center mb-4 lg:mb-6">
-                  <div className="text-3xl lg:text-4xl font-bold text-white mb-2">RS 500</div>
+                  <div className="text-3xl lg:text-4xl font-bold text-white mb-2">RS 1200</div>
                   <div className="text-gray-400 text-sm lg:text-base">One-time payment</div>
                 </div>
                 
@@ -110,16 +110,6 @@ const CTASection = () => {
               </div>
             </div>
           </div>
-        </div>
-
-        {/* Bottom CTA */}
-        <div className="text-center mt-1">
-          <p className="text-gray-400 text-lg mb-4">
-            Questions about the training? Contact us for more information.
-          </p>
-          <button className="px-8 py-3 bg-white/10 backdrop-blur-sm text-white font-semibold text-lg rounded-2xl border border-white/20 hover:bg-white/20 transition-all duration-300">
-            Contact Support
-          </button>
         </div>
       </div>
     </section>

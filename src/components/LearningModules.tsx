@@ -5,24 +5,31 @@ const LearningModules = () => {
   const curriculumModules = [
     {
       icon: Brain,
-      title: 'Module 1: Core System & AI Features',
-      description: 'Explore the fundamental system updates and revolutionary AI integration',
+      title: 'Module 1: Core System Evolution',
+      description: 'Explore fundamental system updates and core infrastructure improvements',
       topics: [
         {
           category: 'Kernel & Core Updates',
           details: [
-            'Kernel: 5.14 → 6.12',
-            'glibc 2.39, systemd 256, bash 5.2',
-            'Python 3.12, dnf 4.20, rpm 4.19',
+            'Kernel 6.12 upgrade (vs 5.14 in RHEL 9)',
+            'Updated system libraries: glibc 2.39, systemd 256, Python 3.12, bash 5.2',
+            'Smarter package management with DNF 4.20 & RPM 4.19',
             'Diff vs Previous Versions: Higher performance, scalability, better package management'
           ]
-        },
+        }
+      ]
+    },
+    {
+      icon: Brain,
+      title: 'Module 2: AI-Powered Enhancements',
+      description: 'Master revolutionary AI integration and automation features',
+      topics: [
         {
-          category: 'AI-Powered Enhancements',
+          category: 'RHEL Lightspeed',
           details: [
-            'RHEL Lightspeed: AI command-line assistant',
-            'Install: dnf install command-line-assistant',
-            'Shortcuts: c, cla, c -i, c -a, c history',
+            'AI command-line assistant',
+            'Simplified troubleshooting, recommendations & automation',
+            'New command shortcuts (cla, c -i, c -a, c history)',
             'Diff vs Previous Versions: First-ever AI integration in RHEL'
           ]
         }
@@ -30,74 +37,49 @@ const LearningModules = () => {
     },
     {
       icon: Shield,
-      title: 'Module 2: Security & Compliance',
+      title: 'Module 3: Security & Compliance',
       description: 'Master advanced security features and compliance automation',
       topics: [
         {
-          category: 'Post-Quantum Cryptography (PQC)',
+          category: 'Advanced Security Features',
           details: [
-            'Future-ready encryption',
-            'Encrypted DNS + HSM support (Tech Preview)',
-            'AIDE System Role for intrusion detection automation'
-          ]
-        },
-        {
-          category: 'Built-in Compliance & Hardening',
-          details: [
-            'Streamlined FIPS validation',
-            'STIG & CIS profiles',
-            'SELinux improvements',
-            'Diff vs Previous Versions: Traditional crypto, no PQC or encrypted DNS, AIDE not automated'
+            'Post-Quantum Cryptography (PQC) for future-proof encryption',
+            'Encrypted DNS & Hardware Security Module (HSM) integration',
+            'AIDE system role for intrusion detection',
+            'Streamlined STIG/CIS hardening & FIPS validation'
           ]
         }
       ]
     },
     {
       icon: Cloud,
-      title: 'Module 3: Deployment, Web Console & Hybrid Cloud',
+      title: 'Module 4: Deployment & Hybrid Cloud',
       description: 'Learn modern deployment strategies and cloud-native features',
       topics: [
         {
-          category: 'Immutable OS Image Mode',
+          category: 'Deployment & Cloud Features',
           details: [
-            'Consistency in deployments',
-            'Image Builder Enhancements',
-            'Multi-platform: Cloud, VMs, Bare Metal, WSL',
-            'Container-native OS delivery'
-          ]
-        },
-        {
-          category: 'Web Console & Cloud Support',
-          details: [
-            'Built-in text editor',
-            'Manage Stratis limits & HA add-on',
-            'Optimized images: AWS, Azure, GCP',
-            'Insights planning & lifecycle visibility',
-            'Extensions repo for cloud workloads',
-            'Diff vs Previous Versions: No immutable mode, simpler console, limited cloud images'
+            'Immutable OS image mode for consistent environments',
+            'Advanced Image Builder for cloud, VM, bare metal, and WSL',
+            'Cloud-optimized images for AWS, Azure, and GCP',
+            'Lifecycle management with Red Hat Insights'
           ]
         }
       ]
     },
     {
       icon: Code,
-      title: 'Module 4: Developer Ecosystem & Architecture',
+      title: 'Module 5: Developer & Ecosystem Upgrades',
       description: 'Explore updated toolchains and new architecture support',
       topics: [
         {
-          category: 'Updated Developer Toolchains',
+          category: 'Developer Tools & Stacks',
           details: [
-            'PHP 8.3, Git 2.47, NGINX 1.26',
-            'MySQL 8.4, Maven 3.9',
-            'Redis, Valkey, WSL support'
-          ]
-        },
-        {
-          category: 'New Architecture Support',
-          details: [
-            'Flatpak support for desktop apps → flatpak install ...',
-            'RISC-V Developer Preview (HiFive P550)',
-            'Diff vs Previous Versions: Older stacks, no Flatpak, no RISC-V'
+            'Latest stacks: PHP 8.3, Git 2.47, NGINX 1.26, MySQL 8.4, Maven 3.9',
+            'Flatpak support for desktop apps',
+            'Redis & Valkey integration',
+            'Web Console upgrades (editor, Stratis, HA cluster)',
+            'RISC-V developer preview (HiFive P550)'
           ]
         }
       ]
@@ -126,7 +108,7 @@ const LearningModules = () => {
           </div>
           <div className="text-center p-4 lg:p-6 bg-gray-800/30 rounded-xl lg:rounded-2xl border border-gray-700/50">
             <Target className="w-10 h-10 lg:w-12 lg:h-12 text-red-400 mx-auto mb-3 lg:mb-4" />
-            <div className="text-xl lg:text-2xl font-bold text-white mb-2">4 Focused Modules</div>
+            <div className="text-xl lg:text-2xl font-bold text-white mb-2">5 Focused Modules</div>
             <div className="text-gray-400 text-sm lg:text-base">Specific to Previous Versions→V10</div>
           </div>
           <div className="text-center p-4 lg:p-6 bg-gray-800/30 rounded-xl lg:rounded-2xl border border-gray-700/50 sm:col-span-2 lg:col-span-1">
@@ -179,8 +161,8 @@ const LearningModules = () => {
             Join our intensive 4-hour training and gain the expertise to confidently migrate 
             from Previous Versions to RHEL 10 with hands-on knowledge of all new features.
           </p>
-          <button className="w-full sm:w-auto px-6 lg:px-8 py-3 lg:py-4 bg-red-600 hover:bg-red-700 text-white font-semibold rounded-2xl transition-colors duration-300 flex items-center justify-center gap-2 mx-auto">
-            Enroll Now - $99
+          <button className="w-full sm:w-auto px-6 lg:px-8 py-3 lg:py-4 bg-green-600 hover:bg-green-700 text-white font-semibold rounded-2xl transition-colors duration-300 flex items-center justify-center gap-2 mx-auto">
+            Enroll Now
             <ArrowRight className="w-4 h-4 lg:w-5 lg:h-5" />
           </button>
         </div>
