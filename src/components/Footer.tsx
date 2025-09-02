@@ -39,7 +39,7 @@ const Footer = () => {
               </div>
               <div>
                 <div className="text-xl font-black text-white">LINUX</div>
-                <div className="text-sm text-red-400 font-semibold">DIFFERENTIAL TRAINING</div>
+                <div className="text-sm text-red-400 font-semibold">UPGRADATION V10 TRAINING</div>
               </div>
             </div>
             
@@ -69,7 +69,7 @@ const Footer = () => {
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-6">
             <div className="text-gray-400 text-sm">
-              © 2024 Linux Differential Training. All rights reserved.
+              © 2024 Linux Upgradation v10 Training. All rights reserved.
             </div>
             
             <div className="flex items-center gap-6">

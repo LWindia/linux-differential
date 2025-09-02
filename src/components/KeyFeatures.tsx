@@ -135,7 +135,7 @@ const KeyFeatures = () => {
                   <div className="relative">
                     <div className="w-32 h-32 lg:w-40 lg:h-40 rounded-full overflow-hidden border-4 border-red-500/30 shadow-2xl">
                       <img 
-                        src="/images/Vimal Sir's .jpg" 
+                        src="/images/vimal-sir.jpg" 
                         alt="Mr. Vimal Daga" 
                         className="w-full h-full object-cover"
                       />
@@ -180,14 +180,14 @@ const KeyFeatures = () => {
 
           {/* Training Comparison Table */}
           <div className="mt-4 lg:mt-6">
-            <h4 className="text-xl lg:text-2xl font-bold text-white text-center mb-6 lg:mb-8">Traditional vs. Differential Training</h4>
+            <h4 className="text-xl lg:text-2xl font-bold text-white text-center mb-6 lg:mb-8">Traditional vs. Linux Upgradation v10 Training</h4>
             <div className="overflow-hidden rounded-xl lg:rounded-2xl border border-gray-700/50">
               <table className="w-full">
                 <thead>
                   <tr className="bg-gray-800/50">
                     <th className="px-4 lg:px-6 py-3 lg:py-4 text-left text-white font-semibold text-sm lg:text-base">Training Approach</th>
                     <th className="px-4 lg:px-6 py-3 lg:py-4 text-center text-red-400 font-semibold text-sm lg:text-base">Traditional Training</th>
-                    <th className="px-4 lg:px-6 py-3 lg:py-4 text-center text-green-400 font-semibold text-sm lg:text-base">Our Differential Training</th>
+                    <th className="px-4 lg:px-6 py-3 lg:py-4 text-center text-green-400 font-semibold text-sm lg:text-base">Our Linux Upgradation v10 Training</th>
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-gray-700/50">

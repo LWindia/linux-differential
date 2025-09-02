@@ -161,7 +161,10 @@ const LearningModules = () => {
             Join our intensive 4-hour training and gain the expertise to confidently migrate 
             from Previous Versions to RHEL 10 with hands-on knowledge of all new features.
           </p>
-          <button className="w-full sm:w-auto px-6 lg:px-8 py-3 lg:py-4 bg-green-600 hover:bg-green-700 text-white font-semibold rounded-2xl transition-colors duration-300 flex items-center justify-center gap-2 mx-auto">
+          <button 
+            onClick={() => window.open('https://rzp.io/rzp/9fs2rct', '_blank')}
+            className="w-full sm:w-auto px-6 lg:px-8 py-3 lg:py-4 bg-green-600 hover:bg-green-700 text-white font-semibold rounded-2xl transition-colors duration-300 flex items-center justify-center gap-2 mx-auto"
+          >
             Enroll Now
             <ArrowRight className="w-4 h-4 lg:w-5 lg:h-5" />
           </button>

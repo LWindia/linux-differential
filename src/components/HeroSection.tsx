@@ -138,7 +138,7 @@ const HeroSection = () => {
         </h1>
         
         <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-3xl font-black lg:font-bold text-white mb-3 lg:mb-6 tracking-wide">
-          DIFFERENTIAL TRAINING
+          UPGRADATION V10 TRAINING
         </h2>
 
         {/* Subheadline */}
@@ -208,7 +208,10 @@ const HeroSection = () => {
 
         {/* CTA Button */}
         <div className="mb-4 lg:mb-8">
-          <button className="w-full sm:w-auto px-6 sm:px-8 py-3 sm:py-4 bg-green-600 hover:bg-green-700 text-white font-semibold rounded-2xl transition-colors duration-300 flex items-center justify-center gap-2 mx-auto">
+          <button 
+            onClick={() => window.open('https://rzp.io/rzp/9fs2rct', '_blank')}
+            className="w-full sm:w-auto px-6 sm:px-8 py-3 sm:py-4 bg-green-600 hover:bg-green-700 text-white font-semibold rounded-2xl transition-colors duration-300 flex items-center justify-center gap-2 mx-auto"
+          >
             Enroll Now
             <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5" />
           </button>

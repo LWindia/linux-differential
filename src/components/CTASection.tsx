@@ -18,7 +18,7 @@ const CTASection = () => {
             Ready to Master Linux V10?
           </h2>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto leading-relaxed">
-            Join our intensive differential training and gain the knowledge needed to successfully 
+            Join our intensive Linux Upgradation v10 training and gain the knowledge needed to successfully 
             upgrade from Linux Previous Versions to V10 in just 4 hours.
           </p>
         </div>
@@ -30,7 +30,7 @@ const CTASection = () => {
             <div className="space-y-6 lg:space-y-8">
               <div>
                 <h3 className="text-2xl lg:text-3xl font-bold text-white mb-4 lg:mb-6">
-                  Enroll in Differential Training
+                  Enroll in Linux Upgradation v10 Training
                 </h3>
                 <p className="text-gray-300 text-base lg:text-lg leading-relaxed mb-4 lg:mb-6">
                   Our specialized approach delivers maximum value in minimum time, focusing exclusively 
@@ -56,7 +56,10 @@ const CTASection = () => {
               </div>
 
               {/* CTA Button */}
-              <button className="w-full lg:w-auto px-6 lg:px-8 py-3 lg:py-4 bg-green-600 hover:bg-green-700 text-white font-semibold rounded-2xl transition-colors duration-300 flex items-center justify-center gap-2">
+              <button 
+                onClick={() => window.open('https://rzp.io/rzp/9fs2rct', '_blank')}
+                className="w-full lg:w-auto px-6 lg:px-8 py-3 lg:py-4 bg-green-600 hover:bg-green-700 text-white font-semibold rounded-2xl transition-colors duration-300 flex items-center justify-center gap-2"
+              >
                 Enroll Now
                 <ArrowRight className="w-4 h-4 lg:w-5 lg:h-5" />
               </button>
@@ -67,7 +70,11 @@ const CTASection = () => {
               {/* Pricing Card */}
               <div className="bg-gray-900/80 backdrop-blur-sm rounded-xl lg:rounded-2xl p-6 lg:p-8 border border-gray-700/50">
                 <div className="text-center mb-4 lg:mb-6">
-                  <div className="text-3xl lg:text-4xl font-bold text-white mb-2">RS 1200</div>
+                  <div className="text-3xl lg:text-4xl font-bold text-white mb-2">
+                    <span className="line-through text-gray-500 text-2xl lg:text-3xl">RS 5000</span>
+                    <br />
+                    <span className="text-green-400">RS 1200</span>
+                  </div>
                   <div className="text-gray-400 text-sm lg:text-base">One-time payment</div>
                 </div>
                 
@@ -96,11 +103,11 @@ const CTASection = () => {
                 <div className="space-y-2 lg:space-y-3 text-xs lg:text-sm">
                   <div className="flex items-center justify-between">
                     <span className="text-gray-300">Date:</span>
-                    <span className="text-white font-semibold">Coming Soon</span>
+                    <span className="text-white font-semibold">13th & 14th Sept</span>
                   </div>
                   <div className="flex items-center justify-between">
                     <span className="text-gray-300">Time:</span>
-                    <span className="text-white font-semibold">TBD</span>
+                    <span className="text-white font-semibold">2 hrs each day</span>
                   </div>
                   <div className="flex items-center justify-between">
                     <span className="text-gray-300">Seats:</span>

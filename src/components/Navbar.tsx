@@ -27,7 +27,7 @@ const Navbar = () => {
             </div>
             <div>
               <div className="text-xl font-black text-white">LINUX</div>
-              <div className="text-sm text-red-400 font-semibold">DIFFERENTIAL TRAINING</div>
+              <div className="text-sm text-red-400 font-semibold">UPGRADATION V10 TRAINING</div>
             </div>
           </div>
 
@@ -46,10 +46,16 @@ const Navbar = () => {
 
           {/* CTA Buttons */}
           <div className="hidden lg:flex items-center space-x-4">
-            <button className="px-6 py-3 text-gray-300 hover:text-white transition-colors duration-300 font-medium">
+            <button 
+              onClick={() => document.getElementById('enrollment')?.scrollIntoView({ behavior: 'smooth' })}
+              className="px-6 py-3 text-gray-300 hover:text-white transition-colors duration-300 font-medium"
+            >
               Course Details
             </button>
-            <button className="px-6 py-3 bg-green-600 hover:bg-green-700 text-white font-semibold rounded-2xl transition-colors duration-300">
+            <button 
+              onClick={() => window.open('https://rzp.io/rzp/9fs2rct', '_blank')}
+              className="px-6 py-3 bg-green-600 hover:bg-green-700 text-white font-semibold rounded-2xl transition-colors duration-300"
+            >
               Enroll Now
             </button>
           </div>
@@ -84,10 +90,19 @@ const Navbar = () => {
                 </a>
               ))}
               <div className="pt-4 space-y-3">
-                <button className="w-full px-6 py-3 text-gray-300 hover:text-white transition-colors duration-300 font-medium border border-gray-700 rounded-2xl">
+                <button 
+                  onClick={() => {
+                    document.getElementById('enrollment')?.scrollIntoView({ behavior: 'smooth' });
+                    setIsMenuOpen(false);
+                  }}
+                  className="w-full px-6 py-3 text-gray-300 hover:text-white transition-colors duration-300 font-medium border border-gray-700 rounded-2xl"
+                >
                   Course Details
                 </button>
-                <button className="w-full px-6 py-3 bg-green-600 hover:bg-green-700 text-white font-semibold rounded-2xl transition-colors duration-300">
+                <button 
+                  onClick={() => window.open('https://rzp.io/rzp/9fs2rct', '_blank')}
+                  className="w-full px-6 py-3 bg-green-600 hover:bg-green-700 text-white font-semibold rounded-2xl transition-colors duration-300"
+                >
                   Enroll Now
                 </button>
               </div>

@@ -39,7 +39,7 @@ const AboutTraining = () => {
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            Professional Differential Training
+            Professional Linux Upgradation v10 Training
           </h2>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto leading-relaxed">
             Our specialized training focuses exclusively on the critical differences between Linux Previous Versions and V10, 
@@ -66,7 +66,7 @@ const AboutTraining = () => {
           <div className="space-y-8">
             <div>
               <h3 className="text-3xl font-bold text-white mb-6">
-                Why Choose Differential Training?
+                Why Choose Linux Upgradation v10 Training?
               </h3>
               <p className="text-gray-400 text-lg leading-relaxed mb-6">
                 Traditional Linux courses cover everything from basics to advanced topics, but our differential 
